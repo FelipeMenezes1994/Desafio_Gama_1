@@ -1,0 +1,202 @@
+*{
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 400px;
+}
+a{
+    text-decoration: none;
+}
+.navbar {
+    background: linear-gradient(94deg, #020024 10%, #020258 50%, #020024 90%);
+    width: 100%;
+    min-height: 100px;
+
+}
+
+.navbar-brand{
+    margin: 0;
+    font-size: 30pt;
+}
+
+.navbar-brand img{
+    max-width: 180px;
+
+}
+
+.btn{
+    color: #020258;
+    background-color: #fff;
+    border-radius: 0;
+    box-shadow: 0 0 0.5em darkgray;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #020258;
+}
+
+.drp-dwn{
+    border-radius: 5px 0  0 5px;
+}
+
+.drp-dwn:focus{
+    outline: 0;
+    box-shadow: 0 0 0.5em darkgray;
+}
+
+.search-btn{
+    border-radius: 0 5px  5px 0 ;
+    border: none;
+}
+.search-btn:focus{
+    box-shadow: 0 0 0.5em darkgray;
+   outline: 0;
+}
+
+/* .formula{
+    margin: 0 16px 0 0 ;
+} */
+
+.form-control{
+    width: 500px;
+    border-radius: 0;
+    border: none;
+    box-shadow: 0 0 0.5em darkgray;
+    padding: 0 0 0 8px;
+}
+
+.navi-menu{
+    flex-grow: 0;
+}
+
+ul{
+    margin: 0;
+}
+
+@media screen and (max-width: 725px) {
+    .form-control{
+        width: 300px;
+    }
+
+
+    
+}
+
+@media screen and (max-width: 535px) {
+    .form-control{
+        width: 200px;
+    }
+    .form-control::placeholder{
+        font-size: 10pt;
+    }
+    .navbar-brand img{
+        max-width: 150px;
+    
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .form-control{
+        width: 180px;
+        padding-top: 7px ;
+        padding-bottom: 7px ;
+    }
+    .drp-dwn{
+        width: 65px;
+        padding: 10px 3px;
+        font-size: 8pt;
+        margin: auto;
+    }
+    .search-btn{
+        width: 25px;
+        padding: 6px 3px;
+        font-size: 7pt;
+    }
+    .form-control::placeholder{
+        font-size: 7pt;
+        margin: auto;
+
+
+    }
+    
+}
+
+.navbar-toggler{
+    padding: 0;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+
+
+
+/* ============================================================================================================== */
+.cards{
+    margin-top: 80px;
+}
+
+
+.card{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    border: none;
+}
+
+
+.content .card-description{
+    display: none;
+}
+
+
+.content:hover .card-description{
+    display: block;
+    background: #020258;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin-top: 0;
+
+
+}
+
+.content:hover img{
+    height: 18rem;
+}
+
+.content .card:hover{
+    box-shadow: 0.2em 0.5em 0.7em 0  #020258;
+    border-radius: 10px;
+
+}
+
+.content .card{
+    margin: 0;
+}
+
+.content  img{
+    height: 15rem;
+    padding-bottom: 10px;
+    display: flex;
+
+}
+
+.card-body{
+    color: #020258;
+    text-align: center;
+
+}
+.card-text{
+    text-align:justify;
+    margin-bottom: 1;
+
+}
+.card-description i{
+    margin-right: 2pt;
+}
+
+
+
+
