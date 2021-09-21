@@ -72,7 +72,7 @@ ul{
     margin: 0;
 }
 
-@media screen and (max-width: 725px) {
+@media screen and (max-width: 800px) {
     .form-control{
         width: 300px;
     }
@@ -81,7 +81,7 @@ ul{
     
 }
 
-@media screen and (max-width: 535px) {
+@media screen and (max-width: 500px) {
     .form-control{
         width: 200px;
     }
@@ -94,7 +94,7 @@ ul{
     }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
     .form-control{
         width: 180px;
         padding-top: 7px ;
@@ -103,16 +103,16 @@ ul{
     .drp-dwn{
         width: 65px;
         padding: 10px 3px;
-        font-size: 8pt;
+        font-size: 9pt;
         margin: auto;
     }
     .search-btn{
         width: 25px;
         padding: 6px 3px;
-        font-size: 7pt;
+        font-size: 9pt;
     }
     .form-control::placeholder{
-        font-size: 7pt;
+
         margin: auto;
 
 
@@ -140,7 +140,7 @@ ul{
 }
 /* ============================================================================================================== */
 .cards{
-    margin-top: 80px;
+    margin-top: 20px;
 }
 
 
@@ -151,36 +151,41 @@ ul{
     border: none;
 }
 
-
-.content .card-description{
-    display: none;
+.card-description{
+        background: #020258;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        margin-top: 0;
+        align-items: baseline;
 }
 
 
-.content:hover .card-description{
-    display: block;
-    background: #020258;
-    width: 100%;
-    text-align: center;
-    color: #fff;
-    margin-top: 0;
-
+@media screen and (min-width: 1000px) {
+    .content:hover img{
+        height: 16rem;
+    }
+    
+    .content .card:hover{
+        box-shadow: 0.2em 0.5em 0.7em 0  #020258;
+        border-radius: 10px;
+    
+    }
+    .content .card-description{
+        display: none;
+    }
+    
+    
+    .content:hover .card-description{
+        display: block;
+        
+    
+    
+    }
 
 }
 
-.content:hover img{
-    height: 18rem;
-}
 
-.content .card:hover{
-    box-shadow: 0.2em 0.5em 0.7em 0  #020258;
-    border-radius: 10px;
-
-}
-
-.content .card{
-    margin: 0;
-}
 
 .content  img{
     height: 15rem;
@@ -192,6 +197,8 @@ ul{
 .card-body{
     color: #020258;
     text-align: center;
+    
+
 
 }
 .card-text{
@@ -216,3 +223,35 @@ ul{
 .about-us {
     color: #020258;
 }
+
+/* =================================================================================================================== */
+
+
+
+.description{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.text-description p{
+    text-align: justify;
+}
+
+.text-description .buy-product{
+    width: 100%;
+
+    background-color: #020258;
+    color: #fff;
+    font-size: 25px;
+}
+
+@media screen  and (max-width: 1200px){
+    .img-description{
+        height: 80%;
+    }
+    .text-description h3{
+        margin-top: 20px;
+    }
+}
+
