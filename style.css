@@ -2,6 +2,7 @@
     font-family: 'Chakra Petch', sans-serif;
     font-weight: 400px;
 }
+
 a{
     text-decoration: none;
 }
@@ -290,18 +291,4 @@ ul{
     .carousel-item img{
         max-height: 210px;
     }
-}
-
-/* =================================================================================================================== */
-
-footer{
-    display: flex;
-    justify-content: center;
-    background: linear-gradient(94deg, #020258 10%, #020024 50%, #020258 90%);
-    bottom: 0;
-    color: #fff;
-}
-
-footer p{
-    padding-top: 20px;
 }
