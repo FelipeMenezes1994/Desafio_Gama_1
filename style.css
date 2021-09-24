@@ -1,6 +1,7 @@
 *{
     font-family: 'Chakra Petch', sans-serif;
     font-weight: 400px;
+    color: #020024;
 }
 
 a{
@@ -24,7 +25,6 @@ a{
 }
 
 .btn{
-    color: #020258;
     background-color: #fff;
     border-radius: 0;
     box-shadow: 0 0 0.5em darkgray;
@@ -32,7 +32,6 @@ a{
 
 .btn:hover{
     background-color: #fff;
-    color: #020258;
 }
 
 .drp-dwn{
@@ -162,6 +161,10 @@ ul{
         align-items: baseline;
 }
 
+.card-description i{
+    color: #fff;
+}
+
 
 @media screen and (min-width: 1000px) {
     .content:hover img{
@@ -197,10 +200,7 @@ ul{
 }
 
 .card-body{
-    color: #020258;
     text-align: center;
-    
-
 
 }
 .card-text{
@@ -222,17 +222,8 @@ ul{
     margin-bottom: 30px;
 }
 
-.about-us {
-    color: #020258;
-}
 
 /* =================================================================================================================== */
-
-
-.description{
-    display: flex;
-    flex-wrap: wrap;
-}
 
 
 .text-description p{
@@ -240,11 +231,30 @@ ul{
 }
 
 .text-description .buy-product{
-    width: 100%;
-
     background-color: #020258;
     color: #fff;
     font-size: 25px;
+}
+
+.text-description .payment{
+    font-size: 20pt;
+}
+
+.text-description a b{
+    text-decoration: none;
+    color: #fff;
+}
+
+.wpp-share{
+    background-color: #4aae20;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.fb-share{
+    background-color: #1778f2;
+    padding: 8px;
+    border-radius: 8px;
 }
 
 @media screen  and (max-width: 1200px){
@@ -253,6 +263,9 @@ ul{
     }
     .text-description h3{
         margin-top: 20px;
+    }
+    .text-description a b{
+        font-size: 10pt;
     }
 }
 
@@ -273,6 +286,22 @@ ul{
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23020258' viewBox='-1.5 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
+.details{
+    margin-top: 50px;
+    border: solid #02002431 0.025em;
+    padding: 20px;
+}
+
+
+.details li{
+    list-style: none;
+    margin-top: 3px;
+}
+
+.details hr{
+    border:  #02002411 ;
+}
+
 @media screen and (max-width: 600px) {
     .carousel-item{
         max-height: 410px;
@@ -290,5 +319,33 @@ ul{
     
     .carousel-item img{
         max-height: 210px;
+    }
+}
+/* =================================================================================================================== */
+
+footer{
+    width: 100%;
+    background-color: #020024;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.end-page p{
+    color: #fff;
+    margin-bottom: 0;
+}
+
+@media screen and (min-width:768px){
+    .slow-content{
+        position:absolute;
+        bottom: 0;
+    }
+}
+
+@media screen and (min-width:576px){
+    .very-slow-content{
+        position:absolute;
+        bottom: 0;
     }
 }
